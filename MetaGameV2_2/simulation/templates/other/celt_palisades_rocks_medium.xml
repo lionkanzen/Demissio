@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="other/palisades_rocks_medium">
+   <BuildRestrictions>
+     <Territory>own ally</Territory>
+   </BuildRestrictions>
+   <Cost>
+     <Resources>
+       <wood>0</wood>
+     </Resources>
+   </Cost>
+</Entity>

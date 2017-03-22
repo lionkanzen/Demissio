@@ -1,0 +1,16 @@
+{
+	"genericName": "Steel Working",
+	"specificName": {
+		"iber": "Toledo Steel"
+	},
+	"description": "Secret steel working techniques give sword blades distinctive and beautiful markings. Not only that, but the steel's hardness is unparalleled.",
+	"cost": { "food": 0, "wood": 200, "stone": 0, "metal": 200 },
+	"requirements": { "all": [{ "tech": "phase_city" }, { "civ": "iber" }]},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "sword.png",
+	"researchTime": 60,
+	"tooltip": "Unlocks the steel process to create the powerful falcata swords. +5 hack damage to all sword units.",
+	"modifications": [{ "value": "Attack/Melee/Hack", "add": 5 }],
+	"affects": ["Sword"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

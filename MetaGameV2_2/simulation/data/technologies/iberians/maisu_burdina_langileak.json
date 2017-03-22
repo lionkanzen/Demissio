@@ -1,0 +1,13 @@
+{
+	"genericName": "Maisu Burdina Langileak",
+	"description": "The Iberians were known to produce the finest iron and steel implements and weapons of the age. Effect: Metal costs for units and technologies reduced by 50%.",
+	"cost": {"food": 0, "wood": 200, "stone": 200, "metal": 0},
+	"requirements": {"all": [{"tech": "phase_town"}, {"civ": "iber"}]},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "anvil.png",
+	"researchTime": 60,
+	"tooltip": "Unlocks the Metalwork aura of Blacksmiths.",
+	"modifications": [],
+	"affects": [],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

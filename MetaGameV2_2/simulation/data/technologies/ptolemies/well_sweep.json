@@ -1,0 +1,13 @@
+{
+	"genericName": "Well Sweep",
+	"specificName" : { "ptol": "Kēlōneion" },
+	"description": "An ancient tool for efficiently drawing water from a well.",
+	"cost": {"food": 0, "wood": 200, "stone": 0, "metal": 100},
+	"requirements": {"all": [{"tech": "phase_village"}, {"civ": "ptol"}]},
+	"icon": "plow.png",
+	"researchTime": 40,
+	"tooltip": "+15% farming rate.",
+	"modifications": [{"value": "ResourceGatherer/Rates/food.grain", "multiply": 1.15}],
+	"affects": ["Worker"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -1,0 +1,13 @@
+{
+	"genericName": "Military Reforms",
+	"description": "When Philip II came to the Macedonian throne he began a total reorganization of the Macedonian army. His reforms created a powerful cavalry arm to his army that would prove useful to both himself and his son Alexander's conquests.",
+	"cost": {"food": 500, "wood": 500, "stone": 500, "metal": 500},
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "mace"}]},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "sword_cross.png",
+	"researchTime": 40,
+	"tooltip": "Unlocks the Reformed Army Barracks and their powerful 16 pikeman Lothos.",
+	"modifications": [],
+	"affects": [],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

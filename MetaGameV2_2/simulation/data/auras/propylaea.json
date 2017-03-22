@@ -1,0 +1,10 @@
+{
+	"type": "global",
+	"affectedPlayers": ["ExclusiveAlly","Enemy"],
+	"affects": ["Structure"],
+	"modifications": [
+		{ "value": "Cost/BuildTime", "multiply": 2 }
+	],
+	"auraDescription": "Build time for other player's structures doubled.",
+	"auraName": "Admiration aura."
+}

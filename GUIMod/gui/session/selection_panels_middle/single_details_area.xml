@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Unit details for Single Unit -->
+<object size="50%-112 0 50%+112 100%" name="detailsAreaSingle">
+	
+	<!-- Stats Bars -->
+	<object size= "0 2 100%-2 94" type="image" tooltip_style="sessionToolTip">
+	
+	<object size="0 0 100% 100%" type="image" sprite="panelShader">
+		<!-- Health bar -->
+		<object size="96 4 100%-1 18" name="healthSection">
+		<object size="1 1 100% 17" name="health" type="image" tooltip_style="sessionToolTip" z="10">
+			<object type="image" sprite="barBorder" ghost="true" size="-1 -1 100%+1 100%+1"/>
+			<object type="image" sprite="healthBackground" ghost="true"/>
+			<object type="image" sprite="healthForeground" ghost="true" name="healthBar"/>
+			<object type="image" sprite="statsBarShaderHorizontal" ghost="true"/>
+		</object>
+		<object size="4 0 100%-4 16" name="healthLabel" type="text" style="StatsTextLeft" ghost="true" z="20">
+			<translatableAttribute id="tooltip">Health:</translatableAttribute>
+		</object>
+		<object size="4 0 100%-4 16" name="healthStats" type="text" style="StatsTextRight" ghost="true" z="20"/>
+		</object>
+
+		<!-- Capture bar -->
+		<object size="96 24 100%-1 38" name="captureSection">
+		<object size="1 1 100% 17" name="capture" type="image" z="10">
+			<object type="image" sprite="barBorder" ghost="true" size="-1 -1 100%+1 100%+1"/>
+			<repeat count="9">
+				<object type="image" sprite="playerColorBackground" ghost="true" name="captureBar[n]" hidden="true"/>
+			</repeat>
+			<object type="image" sprite="statsBarShaderHorizontal" ghost="true"/>
+		</object>
+		<object size="4 0 100%-4 16" name="captureLabel" type="text" style="StatsTextLeft" ghost="true" z="20">
+			<translatableAttribute id="tooltip">Capture points:</translatableAttribute>
+		</object>
+		<object size="4 0 100%-4 16" name="captureStats" type="text" style="StatsTextRight" ghost="true" z="20"/>
+		</object>
+
+		<!-- Resource bar -->
+		<object size="88 28 100% 52" name="resourceSection">
+		<object size="1 1 100% 17" name="resources" type="image" z="10">
+			<object type="image" sprite="barBorder" ghost="true" size="-1 -1 100%+1 100%+1"/>
+			<object type="image" sprite="resourceBackground" ghost="true"/>
+			<object type="image" sprite="resourceForeground" ghost="true" name="resourceBar"/>
+			<object type="image" sprite="statsBarShaderHorizontal" ghost="true"/>
+		</object>
+		<object size="4 0 100%-4 16" name="resourceLabel" type="text" style="StatsTextLeft" ghost="true" z="20"/>
+		<object size="4 0 100%-4 16" name="resourceStats" type="text" style="StatsTextRight" ghost="true" z="20"/>
+		</object>
+
+		<!-- Various indicators -->
+		<object size="97 44 127 74" name="indicatorIcon[0]" ghost="true" type="image" tooltip_style="sessionToolTip"/>
+		<object size="97 74 127 100%-2" name="indicatorText[0]" ghost="true" type="text" style="CenteredStats" tooltip_style="sessionToolTip"/>
+		<object size="128 44 158 74" name="indicatorIcon[1]" ghost="true" type="image" tooltip_style="sessionToolTip"/>
+		<object size="128 74 158 100%-2" name="indicatorText[1]" ghost="true" type="text" style="CenteredStats" tooltip_style="sessionToolTip"/>
+		<object size="159 44 189 74" name="indicatorIcon[2]" ghost="true" type="image" tooltip_style="sessionToolTip"/>
+		<object size="159 74 189 100%-2" name="indicatorText[2]" ghost="true" type="text" style="CenteredStats" tooltip_style="sessionToolTip"/>
+		<object size="190 44 220 74" name="indicatorIcon[3]" ghost="true" type="image" tooltip_style="sessionToolTip"/>
+		<object size="190 74 220 100%-2" name="indicatorText[3]" ghost="true" type="text" style="CenteredStats" tooltip_style="sessionToolTip"/>
+	</object>
+	</object>
+
+	<!-- Big unit icon -->
+	<object size="-1 1 95 95" type="image" name="iconBorder" sprite="iconBorder" tooltip_style="sessionToolTip" z="40">
+		<object size="1 1 100%-1 100%-1" type="image" name="icon" ghost="true"/>
+	
+		<!-- Experience bar -->
+		<object size="2 2 6 100%-2" type="image" name="experience" tooltip_style="sessionToolTip">
+			<translatableAttribute id="tooltip">Experience</translatableAttribute>
+			<object type="image" sprite="barBorder" ghost="true" size="-1 -1 100%+1 100%+1"/>
+			<object type="image" sprite="experienceBackground" ghost="true"/>
+			<object type="image" sprite="experienceForeground" ghost="true" name="experienceBar"/>
+			<object type="image" sprite="statsBarShaderVertical" ghost="true"/>
+		</object>
+	
+		<object z="20" size="4 4 20 20" name="rankIcon" type="image" tooltip_style="sessionToolTip">
+			<translatableAttribute id="tooltip">Rank</translatableAttribute>
+		</object>
+	</object>
+	
+	<!-- Context Dependant information -->
+	<!-- Gathering/Repairing/Housing related date -->
+	<object size="2 94 100%-2 132" name="gatheringStatPanel" type="image" sprite="bottomEdgedPanelShader">
+		<object size="4 4 36 36" name="gatherRateIcon" sprite="stretched:aa.png" type="image" tooltip_style="sessionToolTip"/>
+		<object size="36 4 86 36" name="gatherRateText" type="text" style="LeftStats" tooltip_style="sessionToolTip"/>
+		<object size="90 4 122 36" name="capacityIcon" sprite="stretched:session/icons/capacity.png" type="image" tooltip_style="sessionToolTip"/>
+		<object size="122 4 142 36" name="capacityText" type="text" style="LeftStats" tooltip_style="sessionToolTip"/>
+	</object>
+	<!-- Attack/Healing stats -->
+	<object size="2 94 100%-2 132" name="attackStatPanel" type="image" sprite="bottomEdgedPanelShader">
+		<object size="4 4 36 36" name="AttackStatIcon" sprite="stretched:aa.png" type="image" tooltip_style="sessionToolTip"/>
+		<object size="36 4 60 36" name="AttackStatText"  type="text" style="LeftStats" tooltip_style="sessionToolTip"/>
+
+		<object size="62 4 94 36" name="CaptureStatIcon" sprite="stretched:session/icons/attacktypes/capture.png" type="image" tooltip_style="sessionToolTip"/>
+		<object size="94 4 120 36" name="CaptureStatText" type="text" style="LeftStats" tooltip_style="sessionToolTip"/>
+		<object size="62 4 94 36" name="ArrowCountIcon" sprite="stretched:session/icons/arrows.png" type="image" tooltip_style="sessionToolTip"/>
+		<object size="94 4 120 36" name="ArrowCountText" type="text" style="LeftStats" tooltip_style="sessionToolTip"/>
+
+		<object size="122 4 154 36" name="RangeStatIcon" sprite="stretched:session/icons/range.png" type="image" tooltip_style="sessionToolTip"/>
+		<object size="156 4 180 36" name="RangeStatText" type="text" style="LeftStats" tooltip_style="sessionToolTip"/>
+	</object>
+
+	<!-- Names -->
+	<object size="2 132 100%-2 100%" name="statsArea" type="image" sprite="edgedPanelShader">
+	
+	<!-- These images are used to clip off the top and bottom of the civ icon -->
+	<object z="30" size="0 -5 100% 40" ghost="true" type="image" sprite="remove"/>
+	<object z="30" size="0 100%-5 100% 100%+40" ghost="true" type="image" sprite="remove"/>
+	
+	<object z="30" size="0 2 100% 45" ghost="true">
+		<!-- Specific Name -->
+		<object size="0 0 100% 20" name="specific" ghost="true" type="text" style="SpecificNameCentered"/>
+
+		<!-- Generic Name -->
+		<object size="0 15 100% 36" name="generic" ghost="true" type="text" style="GenericNameCentered"/>
+	</object>
+	
+	<!-- Player Name and Civ -->
+	<object size="0 40 100% 100%">
+		<object size="50%-64 50%-64 50%+64 50%+64" name="playerCivIcon" type="image" ghost="true"/>
+		<object size="0 0 100% 100%" name="playerColorBackground" type="image" sprite="playerColorBackground" ghost="true"/>
+		<object size="0 0 100% 100%" type="image" sprite="bottomEdgedPanelShader" ghost="true"/>
+		
+		<!-- Why is this being automatically ghosted? In the mean time, set ghost to false -->
+		<object ghost="false" size="0 0 100% 100%-5" name="player" type="text" style="largeCenteredOutlinedText" tooltip_style="sessionToolTip"/>
+	</object>
+	</object>
+
+</object>
+

@@ -1,0 +1,10 @@
+{
+	"type": "global",
+	"affects": ["CivCentre"],
+	"affectedPlayers": ["Player","Ally","Enemy"],
+	"modifications": [
+		{ "value": "TerritoryInfluence/Radius", "multiply": 0.025 }
+	],
+	"auraName": "Pacification Aura",
+	"auraDescription": "Mauryans did religious reforms to keep their land peaceful. Suppresses all civic centre's territory influence."
+}

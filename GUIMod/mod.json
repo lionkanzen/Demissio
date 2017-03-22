@@ -1,0 +1,9 @@
+{
+	"name": "GUI_mod",
+	"version": "1.0",
+	"label": "GUI Mod",
+	"url": ",",
+	"description": "Improve the GUI.",
+	"dependencies": ["0ad"],
+	"type": "mod"
+}

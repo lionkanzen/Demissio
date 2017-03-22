@@ -1,0 +1,29 @@
+{
+	"genericName": "Femine Mystique",
+	"description": "Spartan women were some of the freest in the ancient world. They could own land and slaves and even exercise naked like Spartan men. It is said that only Spartan women gave birth to real men. Such tough-as-nails women more than once helped save their city from disaster, for example when after a lost battle against Pyrrhus of Epirus they overnight built an earthen rampart to protect the city while their men slept in preparation for the next day's siege.",
+	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 500},
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "spart"}]},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "wives_festival.png",
+	"researchTime": 60,
+	"tooltip": "Increases all women's economic parameters by +25%, but +25% recruit time.",
+	"modifications": [
+		{"value": "Attack/Slaughter/Hack", "multiply": 1.25},
+		{"value": "Attack/Slaughter/MaxRange", "multiply": 1.25},
+		{"value": "Builder/Rate", "multiply": 1.25},
+		{"value": "ResourceGatherer/MaxDistance", "multiply": 1.25},
+		{"value": "ResourceGatherer/BaseSpeed", "multiply": 1.25},
+		{"value": "ResourceGatherer/Rates/food.fruit", "multiply": 1.25},
+		{"value": "ResourceGatherer/Rates/food.grain", "multiply": 1.25},
+		{"value": "ResourceGatherer/Rates/food.meat", "multiply": 1.25},
+		{"value": "ResourceGatherer/Rates/wood.tree", "multiply": 1.25},
+		{"value": "ResourceGatherer/Rates/wood.ruins", "multiply": 1.25},
+		{"value": "ResourceGatherer/Rates/stone.rock", "multiply": 1.25},
+		{"value": "ResourceGatherer/Rates/stone.ruins", "multiply": 1.25},
+		{"value": "ResourceGatherer/Rates/metal.ore", "multiply": 1.25},
+		{"value": "Vision/Range", "multiply": 1.25},
+		{"value": "Cost/BuildTime", "multiply": 1.25}
+	],
+	"affects": ["Female"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

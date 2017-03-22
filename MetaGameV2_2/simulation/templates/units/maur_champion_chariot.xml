@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_cavalry_archer">
+  <Cost>
+    <Resources>
+      <food>150</food>
+      <wood>150</wood>
+      <metal>150</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Square width="5.5" depth="10.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>maur</Civ>
+    <VisibleClasses datatype="tokens">Chariot</VisibleClasses>
+    <GenericName>War Chariot</GenericName>
+    <SpecificName>Rath</SpecificName>
+    <SelectionGroupName>units/maur_champion_chariot</SelectionGroupName>
+    <Icon>units/maur_champion_chariot.png</Icon>
+    <Tooltip>Deals Trample Damage.</Tooltip>
+  </Identity>
+  <ResourceGatherer>
+    <MaxDistance>5.0</MaxDistance>
+    <Capacities>
+      <food>50</food>
+    </Capacities>
+  </ResourceGatherer>
+  <VisualActor>
+    <Actor>units/mauryans/chariot_a.xml</Actor>
+  </VisualActor>
+</Entity>

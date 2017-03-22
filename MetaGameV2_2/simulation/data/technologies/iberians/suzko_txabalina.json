@@ -1,0 +1,15 @@
+{
+	"genericName": "Suzko Txabalina",
+	"description": "Iberian tribesmen were noted for wrapping bundles of grass about the shafts of their throwing spears, soaking that in some sort of flammable pitch, then setting it afire just before throwing.",
+	"cost": {"food": 0, "wood": 200, "stone": 0, "metal": 200},
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "iber"}]},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "spear.png",
+	"researchTime": 60,
+	"tooltip": "Unlocks the flaming component of javelines for guerrilla tactics. +10 crush damage to all javelin units.",
+	"modifications": [
+		{"value": "Attack/Ranged/Crush", "add": 10}
+	],
+	"affects": ["Javelin"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

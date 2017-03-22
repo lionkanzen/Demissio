@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_spearman">
+  <Armour>
+    <Hack>0</Hack>
+    <Pierce>0</Pierce>
+    <Crush>0</Crush>
+  </Armour>
+  <Attack>
+    <Melee>
+      <RepeatTime>500</RepeatTime>
+    </Melee>
+    <Capture disable=""/>
+  </Attack>
+  <Cost>
+    <BuildTime op="mul">0.5</BuildTime>
+    <Resources>
+      <food>250</food>
+      <wood>0</wood>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>300</Max>
+  </Health>
+  <Identity>
+    <Civ>gaul</Civ>
+    <GenericName>Naked Fanatic</GenericName>
+    <SpecificName>Gaesata</SpecificName>
+    <History>A fanatic Celtic warrior, devoted to war and his Celtic liege lord. These bloodthirsty young men roamed Gaul in search of battle.</History>
+    <Icon>units/celt_fanatic.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Tooltip>Special: Berseker. High speed, health and attack rate at cost of armor. They can only attack structures.</Tooltip>
+  </Identity>
+  <UnitMotion>
+    <WalkSpeed op="add">6</WalkSpeed>
+    <Run>
+      <Speed op="mul">2</Speed>
+      <Range>600.0</Range>
+      <RangeMin>5.0</RangeMin>
+    </Run>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/celts/fanatic.xml</Actor>
+  </VisualActor>
+</Entity>

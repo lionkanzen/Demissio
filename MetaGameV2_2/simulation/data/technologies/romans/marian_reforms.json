@@ -1,0 +1,13 @@
+{
+	"genericName": "Marian Reforms",
+	"description": "In response to a Gallic-Germanic invasion, the great Gaius Marius reformed the Roman army, turning it from a part-time militia into a professional military force.",
+	"cost": {"food": 500, "wood": 500, "stone": 500, "metal": 500},
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "rome"}]},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "sword_cross.png",
+	"researchTime": 40,
+	"tooltip": "Unlocks the Marian Army Tents and their powerful 8 swordsmen Contubernium squads.",
+	"modifications": [],
+	"affects": [],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -1,0 +1,15 @@
+{
+	"type": "range",
+	"radius": 15,
+	"affects": ["Hero"],
+	"affectedPlayers": ["Player"],
+	"modifications": [
+		{ "value": "Attack/Melee/Hack", "add": 1 },
+		{ "value": "Attack/Melee/Pierce", "add": 1 },
+		{ "value": "Attack/Melee/Crush", "add": 1 }
+	],
+	"auraName": "Cavalry Vanguard Aura",
+	"auraDescription": "+1 attack for the general within his range.",
+	"stackable": true,
+	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
+}

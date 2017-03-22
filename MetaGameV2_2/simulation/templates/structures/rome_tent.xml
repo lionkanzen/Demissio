@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_house">
+  <Cost>
+    <PopulationBonus>0</PopulationBonus>
+    <BuildTime>15</BuildTime>
+    <Resources>
+      <wood>50</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="11.0" depth="11.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <Max>8</Max>
+    <List datatype="tokens">Contubernium</List>
+    <BuffHeal>1</BuffHeal>
+  </GarrisonHolder>
+  <Health>
+    <Max>50</Max>
+  </Health>
+  <Capturable>
+    <CapturePoints>50</CapturePoints>
+  </Capturable>
+  <Identity>
+    <Civ>rome</Civ>
+    <GenericName>Tent</GenericName>
+    <SpecificName>Tabernāculum</SpecificName>
+    <Tooltip>A temporary shelter for soldiers. Recruit up to 8 population-free swordsmen.</Tooltip>
+    <Icon>structures/house.png</Icon>
+    <RequiredTechnology>romans/marian_reforms</RequiredTechnology>
+    <Classes datatype="tokens">Tent</Classes>
+  </Identity>
+  <Obstruction>
+    <Static width="8.0" depth="8.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <BatchTimeModifier>1.0</BatchTimeModifier>
+    <Entities datatype="tokens">
+      -units/{civ}_support_female_citizen_house
+      units/rome_infantry_swordsman_tent
+    </Entities>
+    <Technologies datatype="tokens">
+      -health_females_01
+      -pop_house_01
+      -unlock_females_house
+    </Technologies>
+  </ProductionQueue>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_universal.xml</select>
+      <constructed>interface/complete/building/complete_universal.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+    </SoundGroups>
+  </Sound>
+  <TerritoryDecay>
+    <DecayRate>10</DecayRate>
+  </TerritoryDecay>
+  <VisualActor>
+    <Actor>props/structures/romans/rome_tent.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_storehouse">
+  <Cost>
+    <Resources>
+      <wood>0</wood>
+      <stone>100</stone>
+    </Resources>
+  </Cost>
+  <Capturable>
+    <CapturePoints>400</CapturePoints>
+  </Capturable>
+  <Health>
+    <Max>900</Max>
+  </Health>
+  <Identity>
+    <Civ>pers</Civ>
+    <SpecificName>Asiyah</SpecificName>
+    <History>The Persian kings kept the huge annual tribute received by their subject nations in specific buildings in Persepolis and Susa. In the provinces, the satraps were responsible for the establishment of similar foundations, where local taxes and public funds were kept.</History>
+    <Tooltip>Special: Store for taxes. Gain a slow trickle of all resources.</Tooltip>
+  </Identity>
+  <ResourceTrickle>
+    <Rates>
+      <food>0.15</food>
+      <wood>0.15</wood>
+      <stone>0.15</stone>
+      <metal>0.15</metal>
+    </Rates>
+    <Interval>1000</Interval>
+  </ResourceTrickle>
+  <VisualActor>
+    <Actor>structures/persians/storehouse.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,10 @@
+{
+	"type": "global",
+	"affects": ["CivicStoa"],
+	"modifications": [
+		{ "value": "TerritoryInfluence/Radius", "multiply": 2 }
+	],
+	"auraDescription": "Civic Stoa x2 territory influence per Theatron owned.",
+	"auraName": "Athen Hellenization.",
+	"stackable": true
+}

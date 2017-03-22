@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_temple">
+  <Auras datatype="tokens">loyalty_regen</Auras>
+  <BuildRestrictions>
+    <Category>TempleVesta</Category>
+  </BuildRestrictions>
+  <Footprint replace="">
+    <Circle radius="11.0"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>rubble/rubble_3x3</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>rome</Civ>
+    <GenericName>Temple of Vesta</GenericName>
+    <Icon>structures/temple_vesta.png</Icon>
+    <SpecificName>Aedes Vestae</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="19.0" depth="19.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <Technologies datatype="tokens">
+      romans/vision_sibylline
+      -heal_range
+      -heal_range_2
+      -heal_rate
+      -heal_rate_2
+      -heal_temple
+      -health_regen_units
+    </Technologies>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/romans/temple_vesta.xml</Actor>
+    <FoundationActor>structures/fndn_3x3.xml</FoundationActor>
+  </VisualActor>
+</Entity>

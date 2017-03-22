@@ -1,0 +1,12 @@
+{
+	"type": "global",
+	"affectedPlayers": ["Player","Ally"],
+	"affects": ["Unit"],
+	"modifications": [
+		{ "value": "Cost/Resources/metal", "multiply": 0.9 }
+	],
+	"auraName": "Metalwork Aura",
+	"auraDescription": "Reduce you and your allies unit metal cost by 10% for each blacksmith you own. Requires Maisu Burdina Langileak.",
+	"requiredTechnology": "iberians/maisu_burdina_langileak",
+	"stackable": true
+}

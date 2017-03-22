@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_swordsman">
+  <Cost>
+    <Resources>
+      <food>100</food>
+      <wood>100</wood>
+      <metal>100</metal>
+    </Resources>
+  </Cost>
+  <Identity>
+    <Civ>maur</Civ>
+    <Gender>female</Gender>
+    <GenericName>Maiden Guard</GenericName>
+    <SpecificName>Visha Kanya</SpecificName>
+    <SelectionGroupName>units/maur_champion_maiden</SelectionGroupName>
+    <Icon>units/maur_champion_maiden.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/mauryans/champion_maiden_guard.xml</Actor>
+  </VisualActor>
+</Entity>

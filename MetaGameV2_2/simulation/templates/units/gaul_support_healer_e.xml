@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/gaul_support_healer_a">
+  <Attack>
+    <Melee>
+      <Hack>20</Hack>
+      <Pierce>0</Pierce>
+      <Crush>0.0</Crush>
+      <MaxRange>4.0</MaxRange>
+      <RepeatTime>750</RepeatTime>
+      <PreferredClasses datatype="tokens">Human Siege</PreferredClasses>
+    </Melee>
+    <Capture>
+      <Value>7.2</Value>
+      <MaxRange>4</MaxRange>
+      <RepeatTime>1000</RepeatTime>
+    </Capture>
+  </Attack>
+  <Armour>
+    <Hack>18</Hack>
+  </Armour>
+  <Identity>
+    <Rank>Elite</Rank>
+    <SpecificName>Carnutes Druid</SpecificName>
+    <Tooltip>Special: Warrior Clerics. Great hack combat and capture but weak to other attack types.</Tooltip>
+    <VisibleClasses datatype="tokens">Champion</VisibleClasses>
+  </Identity>
+  <Footprint>
+    <Circle radius="3.0"/>
+    <Height>3.0</Height>
+  </Footprint>
+  <UnitAI>
+    <DefaultStance>violent</DefaultStance>
+  </UnitAI>
+  <Promotion disable=""/>
+</Entity>

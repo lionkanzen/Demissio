@@ -1,0 +1,15 @@
+{
+	"genericName": "Water Wheel",
+        "specificName" : { "ptol": "Sāqīya" },
+	"description": "A water wheel used to disburse water from lower elevations into irrigation canals. The earliest evidence of a sakia is from a Hellenistic tomb painting in Ptolemaic Egypt which dates to the 2nd century BC. It shows a pair of yoked oxen driving a compartmented waterwheel, which is for the first time depicted, too. The Greek sakia gear system is already shown fully developed to the point that modern Egyptian devices are virtually identical. It is assumed that the scientists of the Museum of Alexandria, at the time the most active Greek research center, may have been involved in its invention. An episode from the Alexandrian War in 48 BC tells of how Caesar's enemies employed geared waterwheels to pour sea water from elevated places onto the position of the trapped Romans.",
+	"cost": {"food": 0, "wood": 300, "stone": 0, "metal": 150},
+	"supersedes": "ptolemies/well_sweep",
+	"requirements": {"all": [{"tech": "phase_town"}, {"civ": "ptol"}]},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "plow.png",
+	"researchTime": 40,
+	"tooltip": "+15% farming rate.",
+	"modifications": [{"value": "ResourceGatherer/Rates/food.grain", "multiply": 1.15}],
+	"affects": ["Worker"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

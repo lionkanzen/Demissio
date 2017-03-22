@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_archer">
+  <Builder>
+    <Rate>1.0</Rate>
+    <Entities datatype="tokens">
+      structures/{civ}_house
+      structures/{civ}_storehouse
+      structures/{civ}_farmstead
+      structures/{civ}_field
+      structures/{civ}_corral
+      structures/{civ}_dock
+      structures/{civ}_barracks
+      structures/{civ}_blacksmith
+      structures/{civ}_temple
+      structures/{civ}_market
+      structures/{civ}_defense_tower
+      structures/{civ}_wallset_stone
+      structures/{civ}_civil_centre
+      structures/{civ}_fortress
+      structures/athen_gymnasion
+      structures/athen_theatron
+      structures/athen_prytaneion
+      structures/athen_royal_stoa
+      structures/{civ}_wonder
+      other/athen_hellenic_stoa
+      other/hellenic_propylaea
+    </Entities>
+  </Builder>
+  <Cost>
+    <Resources>
+      <food>50</food>
+      <wood>50</wood>
+      <metal>50</metal>
+    </Resources>
+  </Cost>
+  <Identity>
+    <Civ>athen</Civ>
+    <Lang>greek</Lang>
+    <GenericName>Scythian Archer</GenericName>
+    <SpecificName>Toxótēs Skythikós</SpecificName>
+    <History>The Athenian employed Scythian archers as city police and auxillary troops.</History>
+    <Icon>units/athen_champion_ranged.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/athenians/champion_unit_ranged.xml</Actor>
+  </VisualActor>
+</Entity>

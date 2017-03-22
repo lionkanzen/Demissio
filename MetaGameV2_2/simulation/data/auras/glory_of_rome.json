@@ -1,0 +1,14 @@
+{
+	"type": "range",
+	"radius": 60,
+	"affects": ["CitizenSoldier"],
+	"affectedPlayers": ["Player","Ally"],
+	"modifications": [
+		{ "value": "Attack/Ranged/Pierce", "add": 10 },
+		{ "value": "Attack/Melee/Pierce", "add": 10 },
+		{ "value": "Attack/Melee/Hack", "add": 10 }
+	],
+	"auraName": "Glory of Rome Aura",
+	"auraDescription": "+10 hack and pierce attack for own/ally citizens within his vision range.",
+	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
+}

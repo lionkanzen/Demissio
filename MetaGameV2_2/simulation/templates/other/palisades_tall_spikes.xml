@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defense_wall">
+  <BuildRestrictions>
+    <Territory>own neutral ally enemy</Territory>
+  </BuildRestrictions>
+  <Armour>
+    <Hack>0</Hack>
+    <Pierce>50</Pierce>
+    <Crush>0</Crush>
+  </Armour>
+  <Cost>
+    <BuildTime>12</BuildTime>
+    <Resources>
+      <wood>10</wood>
+      <stone>0</stone>
+    </Resources>
+  </Cost>
+  <Loot>
+    <xp>0</xp>
+    <wood>10</wood>
+  </Loot>
+  <Attack>
+    <Ranged>
+      <Hack>0.0</Hack>
+      <Pierce>150.0</Pierce>
+      <Crush>0.0</Crush>
+      <MaxRange>2</MaxRange>
+      <MinRange>0</MinRange>
+      <ElevationBonus>15</ElevationBonus>
+      <ProjectileSpeed>7500.0</ProjectileSpeed>
+      <PrepareTime>0</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
+      <Spread>0</Spread>
+      <RestrictedClasses datatype="tokens">Structure Infantry Support Dog Siege</RestrictedClasses>
+    </Ranged>
+  </Attack>
+  <BuildingAI>
+    <DefaultArrowCount>1</DefaultArrowCount>
+  </BuildingAI>
+  <Footprint>
+    <Square width="3.0" depth="11.0"/>
+    <Height>2.0</Height>
+  </Footprint>
+  <Health>
+    <Max>40</Max>
+    <SpawnEntityOnDeath disable=""/>
+  </Health>
+  <Identity>
+    <Civ>gaia</Civ>
+    <SpecificName>Spikes Tall</SpecificName>
+    <GenericName>Tall Spikes</GenericName>
+    <Classes datatype="tokens">-StoneWall Palisade</Classes>
+    <Icon>gaia/special_palisade.png</Icon>
+    <RequiredTechnology>phase_village</RequiredTechnology>
+    <Tooltip>Special defensive building for women. High damage. Can only damage cavalry.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static width="3.0" depth="11.0"/>
+  </Obstruction>
+  <TerritoryDecay disable=""/>
+  <TerritoryInfluence disable=""/>
+  <VisualActor>
+    <Actor>props/special/palisade_tall_spikes.xml</Actor>
+  </VisualActor>
+</Entity>

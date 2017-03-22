@@ -1,0 +1,13 @@
+{
+	"genericName": "Woad Painting",
+	"description": "The Britons took up the practice of either making permanent marks on their body in the form of tattoos or temporarily painted their bodies with woad paint. The effect was very frightening.",
+	"cost": {"food": 1500, "wood": 0, "stone": 0, "metal": 0},
+	"requirements": {"all": [{"tech": "phase_town"}, {"civ": "brit"}]},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "metal_pot.png",
+	"researchTime": 60,
+	"tooltip": "Body pigments that gives your units a fear effect which reduces enemy citizen's attack by -20% on sight.",
+	"modifications": [],
+	"affects": ["CitizenSoldier Champion"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

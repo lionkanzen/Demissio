@@ -1,0 +1,14 @@
+{
+	"genericName": "Carnutes",
+	"description": "The Carnutes were druids from Aulercia. They fought when needed, and were largely responsible for turning back the Belgae incursions into Armorica and Aulercia.",
+	"cost": {"food": 1500, "wood": 0, "stone": 0, "metal": 0},
+	"requirements": {"all": [{"tech": "phase_village"}, {"civ": "gaul"}]},
+	"icon": "battle_axe.png",
+	"researchTime": 60,
+	"tooltip": "Turn gallic druid into the powerful Carnutes Druids, with great hack combat and capture but weak to other attack types.",
+	"modifications": [
+                {"value": "Promotion/RequiredXp", "replace": 0}
+	],
+	"affects": ["Healer"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
