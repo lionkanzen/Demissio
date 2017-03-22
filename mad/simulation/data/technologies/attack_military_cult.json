@@ -1,0 +1,15 @@
+{
+	"pair": "pair_temple_imperial",
+	"genericName": "Military Cult",
+	"description": "Many cultures had a martial cult that bound warriors together in a brotherhood.",
+	"cost": {"food": 500, "wood": 0, "stone": 0, "glory": 300},
+	"requirements": {"tech": "phase_imperial"},
+	"requirementsTooltip": "Unlocked in Empire Phase.",
+	"icon": "armor_corinthian.png",
+	"researchTime": 50,
+	"tooltip": "Soldiers +1 capture attack.",
+	"modifications": [
+		{"value": "Attack/Capture/Value", "add": 1, "affects":"Soldier"}
+	],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

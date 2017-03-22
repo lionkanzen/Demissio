@@ -1,0 +1,11 @@
+{
+	"type": "range",
+	"radius": 25,
+	"affects": ["Cavalry"],
+	"modifications": [
+	  {"value": "Attack/Melee/Hack", "add": 10}
+	],
+	"auraName": "Cavalry Commander",
+	"auraDescription": "Melee cavalry +10 attack within a small range of him (will change to a CHARGE bonus when charging is implemented).",
+	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
+}

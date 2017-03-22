@@ -1,0 +1,39 @@
+CONTRIBUTORS
+
+Such a large mod is difficult to create as one man. Others contribute talent and time in order to complete a common vision. Below is a list of contributors to Delenda Est.
+
+
+ARTWORK
+
+Lion.Kanzen
+- Technology portraits
+
+niektb
+- Technology portraits
+
+LordGood
+- Wheat and Barley Farms
+
+micket
+- Fixed roof tiles texture (diffuse, specular, parallax) for Romans and Greeks
+
+Cliparts.co
+- Cornucopia icon and other free artwork
+
+Madpencil
+- Technology portraits
+
+
+AUDIO
+
+HaelDB on OpenGameArt.org
+- http://opengameart.org/content/male-gruntyelling-sounds
+
+Derek & Brandon Fiechter
+"Golden Scarabs"
+
+
+LICENSE
+
+Artwork and Scripts:
+https://creativecommons.org/licenses/by-sa/3.0/
